@@ -42,6 +42,6 @@ $ git push origin main
 
 ****
 
-## 团队合作工作流1![屏幕截图 2025-11-10 174700](C:\Users\ppwqHU\Desktop\Task\photo\屏幕截图%202025-11-10%20174700.png)
+## 团队合作工作流
 
 
