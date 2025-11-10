@@ -7,3 +7,6 @@
 # 阶段二学习成果
 1. [git使用笔记](https://github.com/Atwelve12/Task/blob/c00e34fc2f3feba35eb468332e83d4245c7704cb/git%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0.md)
 2. [git进阶笔记](https://github.com/Atwelve12/Task/blob/c00e34fc2f3feba35eb468332e83d4245c7704cb/git%E8%BF%9B%E9%98%B6%E7%AC%94%E8%AE%B0.md)
+3. [git练习文档](https://github.com/Atwelve12/Task/blob/3fff61fbf042ff2ff9434413da426627335cf654/git/gitTestFile.md)
+4. [git练习文档2](https://github.com/Atwelve12/Task/blob/3fff61fbf042ff2ff9434413da426627335cf654/git/helloGit.md)
+5. [git问题解决记录](https://github.com/Atwelve12/Task/blob/3fff61fbf042ff2ff9434413da426627335cf654/git/git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98.md)
