@@ -45,3 +45,41 @@ $ git push origin main
 ****
 
 ## 团队合作工作流1![屏幕截图 2025-11-10 174700](C:\Users\ppwqHU\Desktop\Task\photo\屏幕截图%202025-11-10%20174700.png)
+
+****
+
+## 回溯代码
+
+```git
+ $ git log
+```
+
+> 看查上传记录
+
+
+
+```git
+$ git log --stat
+```
+
+> 看查改动文件
+
+
+
+```git
+git diff 9f7720326d0ef955348ce7693957f1f5b519f513
+```
+
+> 通过commit id具体看查改动
+
+
+
+```git
+git reset --hard[commit id]
+//或
+git checkout [commit id]
+```
+
+> 回溯代码
+
+
