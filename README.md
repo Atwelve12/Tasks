@@ -27,8 +27,8 @@
 
 3. [JavaScript学习笔记](https://github.com/Atwelve12/Task/blob/f51942ac0e7561c045c4223bcf480ce252dddb8a/FrontEnd/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
-4. [静态网页展示](https://atwelve12.github.io/Yorushika.github.io/)
+4. [静态网页展示](https://github.com/Atwelve12/Task/blob/0c23a601ecbf5e084995f69be368494122386b0d/FrontEnd/web/%E4%BB%8B%E7%BB%8D.md/)
 
-5. [编后感]([Task/FrontEnd/web/编后感.md at f51942ac0e7561c045c4223bcf480ce252dddb8a · Atwelve12/Task · GitHub](https://github.com/Atwelve12/Task/blob/f51942ac0e7561c045c4223bcf480ce252dddb8a/FrontEnd/web/%E7%BC%96%E5%90%8E%E6%84%9F.md))
+5. [编后感](https://github.com/Atwelve12/Task/blob/f51942ac0e7561c045c4223bcf480ce252dddb8a/FrontEnd/web/%E7%BC%96%E5%90%8E%E6%84%9F.md)
 
 
