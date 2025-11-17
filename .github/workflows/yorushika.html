@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yorushika fun</title>
+
+    <style>
+   
+       body{
+        margin:  0;
+          padding: 10px;
+          height: 100vh;
+        background: linear-gradient(135deg , rgb(79, 141, 222), rgb(93, 219, 179),rgb(200, 230, 243));
+        background-size: 300% 300%;
+        background-attachment: fixed;
+        animation:movetation 15s ease infinite;
+        position: relative;
+        }
+
+        .yorushika {
+            width:15%; 
+            height:auto;
+            margin: auto;
+            display: block; 
+            border-radius: 5%;
+            box-shadow: 4px 4px 15px rgba(0,0,0,0.3),
+                10px 15px  rgba(168, 217, 240, 0.774);
+        }
+
+        .title {
+            background-color: rgb(255, 255, 255,0.5);
+            margin: auto;
+             width: 90%;
+             height: auto;
+          text-align: center;   
+            padding-top: 10px;
+            border-radius: 15px;
+            box-shadow: 8px 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+           
+            color: rgb(49, 97, 136,0.5);
+            padding-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .music {
+            padding-left: 15px;
+            padding-bottom:15px;
+            padding-top:15px;
+            width: 70%;
+            height: auto;
+            margin-left: 5%;
+            margin-top: 5%;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+
+        }
+        .music:hover {
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+            scale: calc(1.03);
+        }
+        .musicdiv {
+            position: relative;
+            display: inline-block;
+        }
+        
+        
+
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+            transition: all 0.3s ease-out;
+        }
+
+        .music:hover .photo {
+            box-shadow:8px 8px 10px rgba(0, 0, 0, 0.4) ;
+        }
+
+        .album {
+            color: rgb(10, 77, 97);
+            font-size: 200%;
+            font-weight: 900;
+        }
+
+        .musiclist {
+            position: absolute;
+            top: -40px;
+            left: 115%;
+            width: 300px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(200, 230, 243, 0.95));
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-10px);
+            transition: all 0.4s ease-in-out;
+        }
+
+
+        .music:hover .musiclist{
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0);
+        }
+
+        .song-list {
+            list-style-type: none;
+           padding: 0;
+           margin: 0;
+          
+        }
+
+        .song-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            transition: background-color 0.2s;
+            padding-left: 10px;
+        }
+
+        .song-list li:last-child {
+            border-bottom: none;
+        }
+
+        .song-list li:hover {
+            background-color: rgba(122, 181, 229, 0.171);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .back1 {
+            z-index: -1;
+            bottom: 10%;
+            left: 10%;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(197, 234, 231, 0.57);
+            animation: xuanzhuan 3.5s infinite alternate ease-in-out;
+        }
+
+        .back2 {
+            z-index: -1;
+            bottom: 35%;
+            left: 80%;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(206, 231, 253, 0.573);
+            animation: xuanzhuan 2.75s infinite alternate ease-in-out;
+        }
+        .back3 {
+            z-index: -1;
+            bottom: 15%;
+            left: 35%;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(189, 216, 240, 0.152);
+            animation: xuanzhuan 3.5s infinite alternate ease-in-out;
+        }
+        .back4 {
+            z-index: -1;
+            bottom: 20%;
+            left: 55%;
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(169, 236, 221, 0.303);
+            animation: xuanzhuan 4s infinite alternate ease-in-out;
+        }
+        .back5 {
+            z-index: -1;
+            bottom: 10%;
+            left: 90%;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(185, 229, 245, 0.437);
+            animation: xuanzhuan 3s infinite alternate ease-in-out;
+        }
+        .back6 {
+            z-index: -1;
+            bottom: 40%;
+            left: 15%;
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(185, 214, 240, 0.371);
+            animation: xuanzhuan 3.5s infinite alternate ease-in-out;
+        }
+        
+
+       @keyframes movetation { 
+        0% {
+        background-position: 0% 50%;
+        } 
+        50% {
+        background-position: 100% 50%;
+        }
+        100% {
+        background-position: 0% 50%; 
+        }
+       }
+
+       @keyframes xuanzhuan {
+        0% {
+            border-radius: 15%;
+            transform: rotate(0deg);
+        }
+        50% {
+            border-radius: 25%;
+            transform: rotate(180deg);
+        }
+        100% {
+            border-radius: 50%;
+            transform: rotate(360deg);
+        }
+      }
+
+       
+
+       
+
+        </style>
+</head>
+
+
+<body>
+    <div class="title">
+
+    <img  class="yorushika"     
+    src="https://bkimg.cdn.bcebos.com/pic/562c11dfa9ec8a13632747d61b57868fa0ec08fa6af2?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536" 
+    alt="yorushika">   
+
+        <h1>ヨルシカ/Yorushika</h1>
+
+    </div>
+
+
+    <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://i0.hdslb.com/bfs/article/409cbccbd968c907067c091211c5808df7e7a0cd.jpg" alt="1">
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>夏陰、ピアノを弾く</li>
+                    <li>カトレア</li>
+                    <li>言って。</li>
+                    <li>あの夏に咲け</li>
+                    <li>飛行</li>
+                    <li>靴の花火</li>
+                    <li>雲と幽霊</li>
+            </div>
+        </div>
+        <span class="album">《夏草が邪魔をする（夏草成为了阻碍）》</span>
+    </div>
+
+    <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://y.gtimg.cn/music/photo_new/T062M000001Sv8G42XLbvY.jpg?max_age=0" alt="1">
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>前世</li>
+                    <li>負け犬にアンコールはいらない</li>
+                    <li>爆弾魔</li>
+                    <li>ヒッチコック</li>
+                    <li>落下</li>
+                    <li>準透明少年</li>
+                    <li>ただ君に晴れ</li>
+                    <li>冬眠</li>
+                    <li>夏、バス停、君を待つ</li>
+            </div>
+        </div>
+        <span class="album">《負け犬にアンコールはいらない》</span>
+    </div>
+
+   <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://i0.hdslb.com/bfs/article/59a9972c5ccca2e4e6ef805de4b7b777422e1659.png" alt="1">
+           
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>8/31</li>
+                    <li>藍二乗</li>
+                    <li>八月、某、月明かり</li>
+                    <li>詩書きとコーヒー</li>
+                    <li>7/13</li>
+                    <li>踊ろうぜ</li>
+                    <li>六月は雨上がりの街を書く</li>
+                    <li>五月は花緑青の窓辺から</li>
+                    <li>夜紛い</li>
+                    <li>5/6</li>
+                    <li>パレード</li>
+                    <li>エルマ</li>
+                     <li>4/10</li>
+                      <li>だから僕は音楽を辞めた</li>
+            </div>
+        </div>
+        <span class="album">《だから僕は音楽を辞めた（所以我放弃了音乐）》</span>
+    </div>
+
+      <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://i0.hdslb.com/bfs/article/c12c89ed9d721f799f0df302114f656f0f520456.jpg" alt="1">
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>車窓</li>
+                    <li>憂一乗</li>
+                    <li>夕凪、某、花惑い</li>
+                    <li>雨とカプチーノ</li>
+                    <li>湖の街</li>
+                    <li>神様のダンス</li>
+                    <li>雨晴るる</li>
+                    <li>歩く</li>
+                    <li>心に穴が空いた</li>
+                    <li>森の教会</li>
+                    <li>声</li>
+                    <li>エイミー</li>
+                    <li>海底、月明かり</li>
+                    <li>ノーチラス</li>
+            </div>
+        </div>
+        <span class="album">《Elma》</span>
+    </div>
+
+      <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://i0.hdslb.com/bfs/article/71f4c01e327a0490af53438a0d3d6708ac62335d.jpg" alt="1">
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>音楽泥棒の自白</li>
+                    <li>昼鳶</li>
+                    <li>春ひさぎ</li>
+                    <li>爆弾魔 (Re-Recording)</li>
+                    <li>青年期、空き巣</li>
+                    <li>レプリカント</li>
+                    <li>花人局</li>
+                    <li>朱夏期、音楽泥棒</li>
+                    <li>盗作</li>
+                    <li>思想犯</li>
+                    <li>逃亡</li>
+                    <li>幼年期、思い出の中</li>
+                    <li>夜行</li>
+                    <li>花に亡霊</li>
+            </div>
+        </div>
+        <span class="album">《盗作》</span>
+    </div>
+
+      
+
+      <div class="music">
+        <div class="musicdiv">
+            <img class="photo"
+            src="https://y.gtimg.cn/music/photo_new/T062M000003UwwBK0ExPcx.jpg?max_age=0" alt="1">
+            <div class="musiclist">
+                    <ul class="song-list">
+                    <li>強盗と花束</li>
+                    <li>春泥棒</li>
+                    <li>Creation</li>
+                    <li>風を食む</li>
+                    <li>嘘月</li>
+            </div>
+        </div>
+        <span class="album">《创作》</span>
+    </div>
+
+    <div class="back1"></div>
+    <div class="back2"></div>
+    <div class="back3"></div>
+    <div class="back4"></div>
+    <div class="back5"></div>
+    <div class="back6"></div>
