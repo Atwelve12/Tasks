@@ -27,7 +27,7 @@
 
 3. [JavaScript学习笔记](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 
-4. [静态网页展示](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/web/%E4%BB%8B%E7%BB%8D.md)
+4. [静态网页展示](https://github.com/Atwelve12/Task/blob/b3beb50f6655789cbbb86ddb15ba98e41b8ed3e0/FrontEnd/web/%E4%BB%8B%E7%BB%8D.md)
 
 5. [编后感](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/web/%E7%BC%96%E5%90%8E%E6%84%9F.md)
 
