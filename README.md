@@ -21,14 +21,14 @@
 
 # 阶段三学习成果
 
-1. [HTML学习笔记](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+1. [HTML学习笔记](FrontEnd/HTML学习笔记.md)
 
-2. [CSS学习笔记](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+2. [CSS学习笔记](FrontEnd/CSS学习笔记.md)
 
-3. [JavaScript学习笔记](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+3. [JavaScript学习笔记](FrontEnd/JavaScript学习笔记.md)
 
 4. [静态网页展示](FrontEnd/web/介绍.md)
 
-5. [编后感](https://github.com/Atwelve12/Task/blob/5a9225b41afa70b522d632f4d4d0f82e8f166ef7/FrontEnd/web/%E7%BC%96%E5%90%8E%E6%84%9F.md)
+5. [编后感](FrontEnd/web/编后感.md)
 
 
