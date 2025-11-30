@@ -74,7 +74,7 @@ div.name    +tab 补全
 </style>
 ```
 
-
+`html` 和 `body` 元素的高度是由其内容撑开的。`height: 100vh;` 这样可以直接设置为整个视口的高度。
 
 ****
 
@@ -91,13 +91,13 @@ div.name    +tab 补全
 [^网页]:
     [类型] <!DOCTYPE html>
     [外信封开始] <html>
-                                                              [信头开始] <head>
-                                                                [编码说明] <meta charset>
-                                                                [手机适配] <meta viewport>
-                                                                [信件主题] <title>
-                                                              [信头结束] </head>
-                                                              [正文开始] <body>
-                                                                [这里放实际内容]
-                                                              [正文结束] </body>
+                                                                  [信头开始] <head>
+                                                                    [编码说明] <meta charset>
+                                                                    [手机适配] <meta viewport>
+                                                                    [信件主题] <title>
+                                                                  [信头结束] </head>
+                                                                  [正文开始] <body>
+                                                                    [这里放实际内容]
+                                                                  [正文结束] </body>
     
     [外信封结束] </html>
