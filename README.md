@@ -54,6 +54,6 @@
 1. [Linux常用命令学习笔记](Linux/Linux学习.md)
 2. [Go 学习笔记](Linux/go语言学习笔记.md)
 3. [Demo源码](Linux/main.go)
-4. [Demo README](Linux/goREADME.md)
+4. [Demo README](Linux/go README.md)
 5. [阶段5小结](Linux/阶段5小结.md)
 
